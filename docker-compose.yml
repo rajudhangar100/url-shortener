@@ -11,6 +11,6 @@ services:
     ports:
       - "5000:5000"
     environment:
-      - MONGODB_URI=mongodb+srv://dhangarraju2005_db_user:wL4HwIefCYz5oiZl@cluster0.p38tapq.mongodb.net/?appName=Cluster0
+      - DB_URL=mongodb+srv://dhangarraju2005_db_user:wL4HwIefCYz5oiZl@cluster0.p38tapq.mongodb.net/?appName=Cluster0
       - PORT=5000
 
